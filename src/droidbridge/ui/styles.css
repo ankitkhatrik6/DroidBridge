@@ -1,0 +1,156 @@
+/* DroidBridge GTK 4 Desktop Stylesheet */
+
+/* Main window container */
+.droidbridge-window {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+/* Header styling */
+.header-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.header-subtitle {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Device Card */
+.device-card {
+    background-color: @theme_base_color;
+    border: 1px solid alpha(currentColor, 0.12);
+    border-radius: 12px;
+    padding: 18px;
+    margin: 8px 16px;
+}
+
+.device-card-empty {
+    border: 1px dashed alpha(currentColor, 0.20);
+    background-color: transparent;
+    padding: 24px;
+    text-align: center;
+}
+
+.device-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.device-meta {
+    font-size: 13px;
+    opacity: 0.75;
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.status-authorized {
+    background-color: alpha(#2ec27e, 0.15);
+    color: #2ec27e;
+    border: 1px solid alpha(#2ec27e, 0.3);
+}
+
+.status-unauthorized {
+    background-color: alpha(#e5a50a, 0.15);
+    color: #e5a50a;
+    border: 1px solid alpha(#e5a50a, 0.3);
+}
+
+.status-offline {
+    background-color: alpha(#e01b24, 0.15);
+    color: #e01b24;
+    border: 1px solid alpha(#e01b24, 0.3);
+}
+
+.status-active {
+    background-color: alpha(#3584e4, 0.15);
+    color: #3584e4;
+    border: 1px solid alpha(#3584e4, 0.3);
+}
+
+/* Informational Banners */
+.info-banner {
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 8px 16px;
+    font-size: 13px;
+}
+
+.info-banner-warning {
+    background-color: alpha(#e5a50a, 0.12);
+    border: 1px solid alpha(#e5a50a, 0.25);
+    color: @theme_fg_color;
+}
+
+.info-banner-error {
+    background-color: alpha(#e01b24, 0.12);
+    border: 1px solid alpha(#e01b24, 0.25);
+    color: @theme_fg_color;
+}
+
+.info-banner-active {
+    background-color: alpha(#3584e4, 0.12);
+    border: 1px solid alpha(#3584e4, 0.25);
+    color: @theme_fg_color;
+}
+
+/* Action Buttons */
+.btn-primary-action {
+    background-color: #3584e4;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-primary-action:hover {
+    background-color: #1c71d8;
+}
+
+.btn-primary-action:disabled {
+    opacity: 0.5;
+}
+
+.btn-stop-action {
+    background-color: #e01b24;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-stop-action:hover {
+    background-color: #c01c28;
+}
+
+/* Presets segmented bar */
+.preset-box {
+    margin: 8px 16px;
+}
+
+.preset-button {
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Code & diagnostics text */
+.diagnostics-text {
+    font-family: monospace;
+    font-size: 12px;
+    background-color: alpha(currentColor, 0.05);
+    border-radius: 6px;
+    padding: 12px;
+}

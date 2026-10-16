@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DroidBridge
+GenericName=Android Screen & Audio Mirroring
+Comment=Mirror Android phone screen and forward audio over USB data cable
+Exec=droidbridge %U
+Icon=org.droidbridge.DroidBridge
+Terminal=false
+Categories=Utility;AudioVideo;Video;HardwareSettings;
+Keywords=android;mirror;scrcpy;adb;usb;screen;audio;phone;
+StartupWMClass=org.droidbridge.DroidBridge
+MimeType=x-scheme-handler/droidbridge;
+Actions=Diagnostics;ListDevices;
+
+[Desktop Action Diagnostics]
+Name=Run Diagnostics
+Exec=droidbridge --diagnostics
+
+[Desktop Action ListDevices]
+Name=List Connected Devices
+Exec=droidbridge --list-devices

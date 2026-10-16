@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+# Update desktop application database on removal
+if which update-desktop-database >/dev/null 2>&1; then
+    update-desktop-database -q /usr/share/applications || true
+fi
+
+# Update GTK icon theme cache on removal
+if which gtk-update-icon-cache >/dev/null 2>&1; then
+    gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor || true
+fi
+
+# Note: We intentionally do NOT delete user ~/.config/droidbridge or
+# ~/.local/state/droidbridge to preserve user settings and consent.
+
+exit 0

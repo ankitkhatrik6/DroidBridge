@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <!-- Background rounded squircle gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24242e" />
+      <stop offset="100%" stop-color="#18181f" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3584e4" />
+      <stop offset="100%" stop-color="#1c71d8" />
+    </linearGradient>
+    <linearGradient id="screen-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e26" />
+      <stop offset="100%" stop-color="#121217" />
+    </linearGradient>
+  </defs>
+
+  <!-- App Base Tile -->
+  <rect x="8" y="8" width="112" height="112" rx="28" ry="28" fill="url(#bg-grad)" stroke="#3a3a46" stroke-width="2" />
+
+  <!-- Laptop / Desktop Window outline in background -->
+  <rect x="22" y="24" width="84" height="54" rx="6" ry="6" fill="#2a2a35" stroke="#454555" stroke-width="2" />
+  <!-- Window title bar dots -->
+  <circle cx="30" cy="32" r="2.5" fill="#e01b24" />
+  <circle cx="38" cy="32" r="2.5" fill="#e5a50a" />
+  <circle cx="46" cy="32" r="2.5" fill="#2ec27e" />
+
+  <!-- Phone Body in foreground -->
+  <rect x="62" y="38" width="46" height="74" rx="8" ry="8" fill="url(#screen-grad)" stroke="url(#accent-grad)" stroke-width="2.5" />
+  <!-- Phone screen glass -->
+  <rect x="66" y="46" width="38" height="56" rx="4" ry="4" fill="#1c2536" />
+  <!-- Phone camera punch-hole -->
+  <circle cx="85" cy="42" r="1.5" fill="#555" />
+  <!-- Home indicator bar -->
+  <rect x="79" y="106" width="12" height="2" rx="1" ry="1" fill="#666" />
+
+  <!-- USB Data Bridge Cord -->
+  <path d="M 38 78 L 38 96 Q 38 104 48 104 L 62 104" fill="none" stroke="#3584e4" stroke-width="3" stroke-linecap="round" />
+  <!-- USB Plug connector -->
+  <rect x="56" y="101" width="6" height="6" rx="1" fill="#3584e4" />
+
+  <!-- Audio Wave Radiating Lines -->
+  <path d="M 28 50 Q 22 55 28 60" fill="none" stroke="#2ec27e" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 34 45 Q 24 55 34 65" fill="none" stroke="#2ec27e" stroke-width="2" stroke-linecap="round" opacity="0.75" />
+
+  <!-- Screen Mirroring Sync Arrow -->
+  <path d="M 44 48 L 52 48 M 49 45 L 52 48 L 49 51" fill="none" stroke="#3584e4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

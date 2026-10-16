@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# DroidBridge system launcher wrapper
+export PYTHONPATH="/usr/lib/droidbridge:${PYTHONPATH:-}"
+exec /usr/bin/python3 -m droidbridge.main "$@"
