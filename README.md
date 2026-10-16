@@ -149,3 +149,6 @@ Distributed under the Apache-2.0 License. See [`LICENSE`](LICENSE) for more info
 <p align="center">
   <b>Made with ❤️ by <a href="https://github.com/ankitkhatrik6">ankitkhatrik6</a></b>
 </p>
+
+
+> 💡 **Tip**: Use a data-capable USB cable, not just a charging cable.
