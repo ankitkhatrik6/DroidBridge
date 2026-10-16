@@ -72,8 +72,8 @@ Section: utils
 Priority: optional
 Architecture: ${ARCH}
 Maintainer: DroidBridge Maintainers <packages@droidbridge.org>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, adb | android-tools-adb, scrcpy (>= 2.0)
-Recommends: gir1.2-adw-1, pipewire-pulse | pulseaudio
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, adb | android-tools-adb
+Recommends: gir1.2-adw-1, pipewire-pulse | pulseaudio, scrcpy (>= 2.0)
 Homepage: https://github.com/droidbridge/droidbridge
 Description: Native Linux Android USB screen mirroring and audio forwarding
  DroidBridge is a native Linux desktop application that connects to Android

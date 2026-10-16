@@ -133,3 +133,5 @@ class DroidBridgeApplication(BaseApp):
             self.process_manager.cleanup_all()
         self.quit()
         return GLib.SOURCE_REMOVE
+
+# Device monitor ensures USB devices are detected on app launch
