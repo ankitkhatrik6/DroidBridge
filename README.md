@@ -152,3 +152,10 @@ Distributed under the Apache-2.0 License. See [`LICENSE`](LICENSE) for more info
 
 
 > 💡 **Tip**: Use a data-capable USB cable, not just a charging cable.
+
+
+---
+
+<p align="center">
+  <b>⭐ Star this repo if you find it useful!</b>
+</p>
